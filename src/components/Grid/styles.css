@@ -1,0 +1,16 @@
+div{
+    transition: .5s;
+}
+.colapsed{
+    display: none !important;
+    opacity: 0;
+    max-height: 0;
+    transition: .5s, display 0 .5s;
+}
+h1 svg{
+    transition: .5s;
+}
+h1 svg.rotated{
+    transition: .5s;
+    transform: rotate(-90deg);
+}
